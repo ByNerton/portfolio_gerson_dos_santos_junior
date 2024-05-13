@@ -1,0 +1,84 @@
+*{
+    margin: 0; /*Uma propriedade abreviada para definir todas as propriedades de margem em uma declaração*/
+    font-family: 'Courier New', Courier, monospace; /*Especifica o tamanho da fonte do texto*/
+}
+
+.container { 
+    display: flex; /*Especifica o tipo de caixa usado para um elemento HTML*/
+    flex-direction: row; /*Especifica a direção dos itens flexíveis dentro de um contêiner flexível*/
+    row-gap: 10px; /*Especifica o intervalo entre as linhas*/
+    column-gap: 10px; /*Especifica o intervalo entre as colunas*/
+}
+
+.titulo {
+    background-color: black; /*Define a cor de fundo de um elemento*/
+    justify-content: center; /*Alinha horizontalmente os itens flexíveis quando os itens não usam todo o espaço disponível no eixo principal*/
+    text-align: center; /*Especifica o alinhamento horizontal do texto*/
+    color: red; /*Especifica a cor do texto*/
+    padding:15px; /*Uma propriedade abreviada para definir todas as propriedades de preenchimento em uma declaração*/
+    font-size: 14pt; /*Especifica o tamanho da fonte do texto*/
+}   
+.menu {
+    justify-content: center; /*Alinha horizontalmente os itens flexíveis quando os itens não usam todo o espaço disponível no eixo principal*/
+    align-items: last baseline; /*Alinha verticalmente os itens flexíveis quando os itens não usam todo o espaço disponível no eixo cruzado*/
+    height: 22px; /*Define a altura de um elemento*/
+    padding: 5px; /*Uma propriedade abreviada para definir todas as propriedades de preenchimento em uma declaração*/
+}
+    
+.minha_foto {
+    background-color:red; /*Especifica a cor do texto*/
+    height: 340px; /*Define a altura de um elemento*/
+    border-radius: 10px; /*Define todas as quatro propriedades border-*-radius para cantos arredondados*/
+    justify-content: flex-end; /*Alinha horizontalmente os itens flexíveis quando os itens não usam todo o espaço disponível no eixo principal*/
+    align-items: flex-end; /*Alinha verticalmente os itens flexíveis quando os itens não usam todo o espaço disponível no eixo cruzado*/
+    flex-wrap: row; /*Especifica se os itens flexíveis devem ser agrupados ou não, se não houver espaço suficiente para eles em uma linha flexível*/
+    align-content: center; /*Modifica o comportamento da propriedade flex-wrap. É semelhante a align-items, mas em vez de alinhar itens flexíveis, alinha linhas flexíveis*/
+    width: fit-content; /*Define a largura de um elemento*/
+}
+
+.geral {
+    margin: 20px; /*Uma propriedade abreviada para definir todas as propriedades de margem em uma declaração*/
+    padding: 20px; /*Uma propriedade abreviada para definir todas as propriedades de preenchimento em uma declaração*/
+    flex-wrap: nowrap; /*Especifica se os itens flexíveis devem ser agrupados ou não, se não houver espaço suficiente para eles em uma linha flexível*/
+    justify-content: space-around; /*Alinha horizontalmente os itens flexíveis quando os itens não usam todo o espaço disponível no eixo principal*/
+    align-items: center; /*Alinha verticalmente os itens flexíveis quando os itens não usam todo o espaço disponível no eixo cruzado*/
+    height: 420px; /*Define a altura de um elemento*/
+    width: 1240px; /*Define a largura de um elemento*/
+    text-align: center; /*Especifica o alinhamento horizontal do texto*/
+    font-size: 16px; /*Especifica o tamanho da fonte do texto*/
+}
+.conteudo{
+    height: 400px; /*Define a altura de um elemento*/
+    width: 1000px; /*Define a largura de um elemento*/
+}
+p{
+    font-size: 14pt; /*Especifica o tamanho da fonte do texto*/
+    text-indent: 1em;
+}
+
+.familia{
+    width: 100px; /*Define a largura de um elemento*/
+}
+.time{
+    width: 60px; /*Define a largura de um elemento*/
+}
+
+ul {
+    list-style-type: none; /*Especifica o tipo de marcador de item de lista*/
+    color: red; /*Especifica a cor do texto*/
+}
+
+a:link {
+    text-decoration: none; /*Define todas as propriedades de decoração de texto em uma declaração*/
+    padding: 8px 16px; /*Uma propriedade abreviada para definir todas as propriedades de preenchimento em uma declaração*/
+    border: solid #040433c4 1px; /*Define todas as propriedades da borda em uma declaração*/
+}
+
+li {
+    float: left; /*Especifica se um elemento deve flutuar para a esquerda, direita ou nada*/
+}
+
+a:hover {
+    background-color:red; /*Define a cor de fundo de um elemento*/
+    color: black; /*Especifica a cor do texto*/
+}
